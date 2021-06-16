@@ -34,9 +34,9 @@ function setup() {
   scaledWidth = floor(width / resolution);
   scaledHeight = floor(height / resolution);
   // Set the game's framerate to 5 (or whatever you prefer)
-  framerate(5);
-  // Call resetGame() to initialize everything else.
-  resetGame();
+  frameRate(5);
+  // // Call resetGame() to initialize everything else.
+   resetGame();
 }
 
 function draw() {
